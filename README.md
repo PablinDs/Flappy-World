@@ -3,7 +3,7 @@ A proposta do projeto Flappy World é desenvolver um jogo que incentive a educa�
 
 No jogo, o jogador controla o planeta Terra, que deve desviar de obstáculos representados por lixeiras, enquanto mensagens e elementos gráficos reforçam a importância da preservação ambiental e da sustentabilidade. A ideia é combinar diversão e aprendizado, promovendo reflexões sobre responsabilidades individuais em relação ao meio ambiente.
 
-Desenvolvimento
+- Desenvolvimento
 
 O desenvolvimento do jogo Flappy World foi realizado utilizando a linguagem de programação Java, com base na mecânica do famoso jogo Flappy Bird. A criação envolveu diversas técnicas de programação para implementar as funcionalidades desejadas, destacando-se conceitos fundamentais como herança e polimorfismo, que facilitaram a organização do código em múltiplas classes, promovendo modularidade e eficiência.
 
@@ -29,7 +29,7 @@ Além da funcionalidade básica, o jogo inclui mensagens de conscientização e 
 
 Essa abordagem combina tecnologia e educação para engajar os jogadores em um formato lúdico, enquanto os estimula a refletir sobre sua responsabilidade em relação ao meio ambiente.
 
-Captura e Manipulação de imagens
+- Captura e Manipulação de imagens
 
 O código do jogo Flappy World faz a captura das imagens acima utilizando uma abordagem eficiente que envolve armazenamento em cache e renderização dinâmica. Inicialmente, as imagens são carregadas de arquivos locais no disco e armazenadas em uma estrutura de dados que permite reutilizá-las sem precisar recarregá-las continuamente. Isso melhora o desempenho do jogo.
 
