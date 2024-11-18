@@ -10,12 +10,19 @@ O desenvolvimento do jogo Flappy World foi realizado utilizando a linguagem de p
 O projeto conta com 11 classes principais, cada uma responsável por um aspecto específico do jogo, como:
 
 FlappyWorld: classe central que gerencia o fluxo do jogo, estados, e interações entre objetos.
+
 Motor: controla o loop principal e a interação do jogador com o teclado.
+
 Mundo: representa o personagem principal (planeta Terra) e gerencia seu movimento e colisões.
+
 Lixeira: define os obstáculos do jogo, suas posições e comportamentos.
+
 Tela: cuida da renderização dos elementos gráficos.
+
 Hitbox: gerencia as áreas de colisão para detectar interseções entre objetos.
+
 ScoreNumber: controla a pontuação e exibe gráficos relacionados.
+
 Para a implementação, foi utilizado um Ambiente de Desenvolvimento Integrado (IDE), que facilitou a escrita e depuração do código. A mecânica do jogo foi construída com base em eventos, como pressionar a tecla de espaço para fazer o planeta “bater suas asas” e evitar obstáculos. O design gráfico do jogo foi inspirado em elementos da natureza e cenários de poluição, reforçando a temática ambiental.
 
 Além da funcionalidade básica, o jogo inclui mensagens de conscientização e telas de feedback que exibem as consequências de ações inadequadas no jogo, alinhando-se ao objetivo educativo de promover a sustentabilidade de maneira indireta e interativa.
