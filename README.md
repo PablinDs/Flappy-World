@@ -28,3 +28,8 @@ O código do jogo Flappy World faz a captura das imagens acima utilizando uma ab
 Quando uma imagem precisa ser exibida na tela, o sistema verifica se ela já está carregada. Caso contrário, ela é carregada e armazenada para futuras chamadas. Em seguida, as imagens são desenhadas na tela usando uma ferramenta gráfica que permite especificar o posicionamento, tamanho e, se necessário, aplicar transformações como rotações.
 
 Essa renderização ocorre de forma precisa, ajustando as imagens às dimensões e posições necessárias para cada elemento do jogo, como o fundo, os obstáculos ou o personagem. Dessa forma, o código garante que os elementos gráficos sejam exibidos corretamente, de maneira fluida e integrada à jogabilidade.
+
+#Download
+
+Para fazer o download completo basta instalar o arquivo "FlappyWorld.zip",
+Os outros arquivos estão ai apenas para poderem acompanhar o código.
