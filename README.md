@@ -3,25 +3,25 @@ A proposta do projeto Flappy World é desenvolver um jogo que incentive a educa�
 
 No jogo, o jogador controla o planeta Terra, que deve desviar de obstáculos representados por lixeiras, enquanto mensagens e elementos gráficos reforçam a importância da preservação ambiental e da sustentabilidade. A ideia é combinar diversão e aprendizado, promovendo reflexões sobre responsabilidades individuais em relação ao meio ambiente.
 
-- Desenvolvimento
+Desenvolvimento
 
 O desenvolvimento do jogo Flappy World foi realizado utilizando a linguagem de programação Java, com base na mecânica do famoso jogo Flappy Bird. A criação envolveu diversas técnicas de programação para implementar as funcionalidades desejadas, destacando-se conceitos fundamentais como herança e polimorfismo, que facilitaram a organização do código em múltiplas classes, promovendo modularidade e eficiência.
 
 O projeto conta com 11 classes principais, cada uma responsável por um aspecto específico do jogo, como:
 
-FlappyWorld: classe central que gerencia o fluxo do jogo, estados, e interações entre objetos.
+- FlappyWorld: classe central que gerencia o fluxo do jogo, estados, e interações entre objetos.
 
-Motor: controla o loop principal e a interação do jogador com o teclado.
+- Motor: controla o loop principal e a interação do jogador com o teclado.
 
-Mundo: representa o personagem principal (planeta Terra) e gerencia seu movimento e colisões.
+- Mundo: representa o personagem principal (planeta Terra) e gerencia seu movimento e colisões.
 
-Lixeira: define os obstáculos do jogo, suas posições e comportamentos.
+- Lixeira: define os obstáculos do jogo, suas posições e comportamentos.
 
-Tela: cuida da renderização dos elementos gráficos.
+- Tela: cuida da renderização dos elementos gráficos.
 
-Hitbox: gerencia as áreas de colisão para detectar interseções entre objetos.
+- Hitbox: gerencia as áreas de colisão para detectar interseções entre objetos.
 
-ScoreNumber: controla a pontuação e exibe gráficos relacionados.
+- ScoreNumber: controla a pontuação e exibe gráficos relacionados.
 
 Para a implementação, foi utilizado um Ambiente de Desenvolvimento Integrado (IDE), que facilitou a escrita e depuração do código. A mecânica do jogo foi construída com base em eventos, como pressionar a tecla de espaço para fazer o planeta “bater suas asas” e evitar obstáculos. O design gráfico do jogo foi inspirado em elementos da natureza e cenários de poluição, reforçando a temática ambiental.
 
