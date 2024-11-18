@@ -29,7 +29,7 @@ Quando uma imagem precisa ser exibida na tela, o sistema verifica se ela já est
 
 Essa renderização ocorre de forma precisa, ajustando as imagens às dimensões e posições necessárias para cada elemento do jogo, como o fundo, os obstáculos ou o personagem. Dessa forma, o código garante que os elementos gráficos sejam exibidos corretamente, de maneira fluida e integrada à jogabilidade.
 
-#Download
+# Download
 
 Para fazer o download completo basta instalar o arquivo "FlappyWorld.zip",
 Os outros arquivos estão ai apenas para poderem acompanhar o código.
