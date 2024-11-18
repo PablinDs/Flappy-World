@@ -9,20 +9,27 @@ O desenvolvimento do jogo Flappy World foi realizado utilizando a linguagem de p
 
 O projeto conta com 11 classes principais, cada uma responsável por um aspecto específico do jogo, como:
 
-- FlappyWorld: classe central que gerencia o fluxo do jogo, estados, e interações entre objetos.
+- Ação: É uma interface que define um método genérico para executar ações. Outras classes implementam essa interface para realizar ações específicas no jogo.
 
-- Motor: controla o loop principal e a interação do jogador com o teclado.
+- Cano: Controla os obstáculos do jogo, representados por lixeiras. Define suas posições, tamanhos e movimentação na tela, criando desafios para o jogador.
 
-- Mundo: representa o personagem principal (planeta Terra) e gerencia seu movimento e colisões.
+- Cor: Gerencia as cores usadas no jogo, utilizando componentes RGB. Implementa um mecanismo de cache para reutilizar cores, otimizando a criação de objetos gráficos.
 
-- Lixeira: define os obstáculos do jogo, suas posições e comportamentos.
+- FlappyWorld: Classe principal do jogo. Gerencia o estado do jogo, os elementos como personagem, obstáculos e pontuação, além de coordenar as interações entre as outras classes.
 
-- Tela: cuida da renderização dos elementos gráficos.
+- Hitbox: Define áreas de colisão para detectar interseções entre o personagem e os obstáculos, assegurando que as regras de jogo sejam aplicadas corretamente.
 
-- Hitbox: gerencia as áreas de colisão para detectar interseções entre objetos.
+- Interface Jogo: Estrutura básica que especifica os métodos fundamentais para qualquer jogo, como desenho, interação com o teclado e controle de estados.
 
-- ScoreNumber: controla a pontuação e exibe gráficos relacionados.
+- Lixeira: Representa os obstáculos (lixeiras) que o jogador deve evitar. Define o comportamento de movimentação e interação visual dos obstáculos na tela.
 
+- Motor: Controla o loop principal do jogo, gerenciando o tempo, as atualizações de estado e as entradas do jogador, como teclas pressionadas.
+
+- Mundo: Representa o personagem principal, o planeta Terra. Gerencia seu movimento, colisões e animações, além de responder aos comandos do jogador.
+
+- ScoreNumber: Gerencia a pontuação do jogador, exibindo o valor atual e o recorde durante o jogo, de maneira gráfica e interativa.
+
+- Tela: Cuida da renderização de todos os elementos gráficos na interface do jogador. Gerencia a exibição de imagens, formas e textos no jogo.
 Para a implementação, foi utilizado um Ambiente de Desenvolvimento Integrado (IDE), que facilitou a escrita e depuração do código. A mecânica do jogo foi construída com base em eventos, como pressionar a tecla de espaço para fazer o planeta “bater suas asas” e evitar obstáculos. O design gráfico do jogo foi inspirado em elementos da natureza e cenários de poluição, reforçando a temática ambiental.
 
 Além da funcionalidade básica, o jogo inclui mensagens de conscientização e telas de feedback que exibem as consequências de ações inadequadas no jogo, alinhando-se ao objetivo educativo de promover a sustentabilidade de maneira indireta e interativa.
